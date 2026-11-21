@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="100%" height="100%" fill="none">
+  <defs>
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- World Dot Grid Pattern -->
+  <g opacity="0.15" fill="#94A3B8">
+    <!-- Simplified continent clusters -->
+    <!-- North America -->
+    <circle cx="220" cy="180" r="3"/><circle cx="250" cy="190" r="3"/><circle cx="200" cy="210" r="3"/><circle cx="240" cy="230" r="3"/><circle cx="270" cy="220" r="3"/><circle cx="300" cy="240" r="3"/>
+    <!-- Europe -->
+    <circle cx="580" cy="160" r="3"/><circle cx="610" cy="150" r="3"/><circle cx="600" cy="180" r="3"/><circle cx="630" cy="190" r="3"/><circle cx="650" cy="170" r="3"/>
+    <!-- Asia -->
+    <circle cx="820" cy="190" r="3"/><circle cx="860" cy="210" r="3"/><circle cx="900" cy="230" r="3"/><circle cx="940" cy="220" r="3"/><circle cx="980" cy="240" r="3"/><circle cx="880" cy="280" r="3"/><circle cx="920" cy="310" r="3"/>
+    <!-- Middle East -->
+    <circle cx="710" cy="250" r="3"/><circle cx="730" cy="270" r="3"/><circle cx="750" cy="260" r="3"/>
+    <!-- Latin America -->
+    <circle cx="340" cy="380" r="3"/><circle cx="360" cy="420" r="3"/><circle cx="380" cy="450" r="3"/>
+  </g>
+
+  <!-- Shipping / Air Flight Arcs -->
+  <path d="M250,220 Q420,100 610,170" stroke="#FF6B00" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.7"/>
+  <path d="M610,170 Q750,110 900,230" stroke="#0284C7" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.7"/>
+  <path d="M900,230 Q1050,120 250,220" stroke="#38BDF8" stroke-width="2" stroke-dasharray="8 6" opacity="0.5"/>
+  <path d="M610,170 Q670,220 730,260" stroke="#10B981" stroke-width="2" stroke-dasharray="4 4" opacity="0.8"/>
+  <path d="M730,260 Q820,300 920,310" stroke="#FF6B00" stroke-width="2.5" stroke-dasharray="6 4" opacity="0.7"/>
+
+  <!-- Key Hub Nodes -->
+  <!-- Chicago / Los Angeles Hub -->
+  <circle cx="250" cy="220" r="14" fill="url(#hubGlow)"/>
+  <circle cx="250" cy="220" r="5" fill="#FF6B00"/>
+  <text x="250" y="245" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Americas (ORD / LAX)</text>
+
+  <!-- Frankfurt / Rotterdam Hub -->
+  <circle cx="610" cy="170" r="14" fill="url(#hubGlow)"/>
+  <circle cx="610" cy="170" r="5" fill="#FF6B00"/>
+  <text x="610" y="195" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">EMEA (FRA / RTM)</text>
+
+  <!-- Dubai Hub -->
+  <circle cx="730" cy="260" r="12" fill="url(#hubGlow)"/>
+  <circle cx="730" cy="260" r="4.5" fill="#38BDF8"/>
+  <text x="730" y="285" fill="#E2E8F0" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">Dubai (DXB / JAFZA)</text>
+
+  <!-- Shanghai Hub -->
+  <circle cx="900" cy="230" r="14" fill="url(#hubGlow)"/>
+  <circle cx="900" cy="230" r="5" fill="#FF6B00"/>
+  <text x="900" y="255" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Shanghai (PVG / CNSHA)</text>
+
+  <!-- Singapore Hub -->
+  <circle cx="920" cy="310" r="14" fill="url(#hubGlow)"/>
+  <circle cx="920" cy="310" r="5" fill="#10B981"/>
+  <text x="920" y="335" fill="#E2E8F0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Singapore (SIN / PSA)</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Cold Chain Snowflake Shield -->
+  <circle cx="32" cy="32" r="28" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+  <path d="M32 14V50M14 32H50M19 19L45 45M19 45L45 19" stroke="#0284C7" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="5" fill="#FF6B00"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Customs Shield Stamp -->
+  <path d="M32 6L54 16V34C54 46 44 56 32 60C20 56 10 46 10 34V16L32 6Z" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+  <path d="M22 32L29 39L44 24" stroke="#059669" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

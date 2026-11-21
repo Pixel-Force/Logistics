@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Global Shipment Tracking Portal | Vanguard Logistics</title>
+  <meta name="description" content="Track your international freight shipments in real-time. Enter your Air Waybill (AWB), Ocean Bill of Lading (B/L), or Container number.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <header class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <div class="top-bar-item">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          <span>24/7 Tracking Support: <a href="tel:+18005558435"><strong>+1 (800) 555-VGL-LOG</strong></a></span>
+        </div>
+      </div>
+      <div class="top-bar-right">
+        <span class="system-status-indicator"><span class="pulse-dot"></span> SatNet Real-Time Feeds</span>
+        <div class="top-bar-item"><a href="contact.html">Portal Login</a></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="site-header">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand-logo">
+        <img src="images/logo.svg" alt="Vanguard Global Logistics" class="logo-icon-svg">
+        <div class="brand-text">
+          <span class="brand-name">VANGUARD<span>.</span></span>
+          <span class="brand-tagline">GLOBAL LOGISTICS</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="services.html" class="nav-link">
+            Services
+            <svg class="chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item"><a href="air-freight.html"><img src="images/icon-air.svg" class="dropdown-icon" alt=""> Air Freight Cargo</a></li>
+            <li class="dropdown-item"><a href="ocean-freight.html"><img src="images/icon-ocean.svg" class="dropdown-icon" alt=""> Ocean Freight (FCL/LCL)</a></li>
+            <li class="dropdown-item"><a href="road-transport.html"><img src="images/icon-road.svg" class="dropdown-icon" alt=""> Overland Road & Rail</a></li>
+            <li class="dropdown-item"><a href="warehousing.html"><img src="images/icon-warehouse.svg" class="dropdown-icon" alt=""> Smart 3PL Warehousing</a></li>
+            <li class="dropdown-item"><a href="services.html"><strong>View All 12 Capabilities &rarr;</strong></a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a href="tracking.html" class="nav-link active">Live Tracking</a></li>
+        <li class="nav-item"><a href="quote.html" class="nav-link">Rate Estimator</a></li>
+        <li class="nav-item"><a href="network.html" class="nav-link">Global Network</a></li>
+        <li class="nav-item"><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link">About VGL</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="header-actions">
+        <a href="quote.html" class="btn btn-accent btn-sm">Get Instant Quote</a>
+        <button class="mobile-toggle-btn" aria-label="Open mobile menu">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-nav-drawer">
+    <div class="mobile-nav-overlay"></div>
+    <div class="mobile-nav-panel">
+      <div class="mobile-panel-header">
+        <a href="index.html" class="brand-logo">
+          <img src="images/logo.svg" alt="Vanguard Global Logistics" style="width: 36px; height: 36px;">
+          <span class="brand-name" style="font-size: 1.15rem;">VANGUARD<span>.</span></span>
+        </a>
+        <button class="mobile-close-btn" aria-label="Close menu">
+          <svg style="width:24px;height:24px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">All Freight Services</a></li>
+        <li><a href="air-freight.html">Air Freight Express</a></li>
+        <li><a href="ocean-freight.html">Ocean Shipping (FCL/LCL)</a></li>
+        <li><a href="road-transport.html">Road & Rail Transport</a></li>
+        <li><a href="warehousing.html">Smart 3PL Warehousing</a></li>
+        <li><a href="tracking.html" class="active">Live Tracking Console</a></li>
+        <li><a href="quote.html">Freight Rate Estimator</a></li>
+        <li><a href="network.html">Global Port Network</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="about.html">About Vanguard</a></li>
+        <li><a href="contact.html">Contact & Emergency Hubs</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <main>
+    <!-- TRACKING HERO & SEARCH CONSOLE -->
+    <section class="section-dark" style="padding: 5rem 0 4rem 0;">
+      <div class="container container-narrow text-center">
+        <span class="badge-kicker badge-kicker-dark">SatNet Telematics 24/7</span>
+        <h1 style="margin-top: 0.75rem; margin-bottom: 1rem;">Live Shipment Tracking Console</h1>
+        <p style="color: var(--slate-300); margin-bottom: 2.5rem; font-size: 1.05rem;">
+          Access continuous GPS telematics, checkpoint progression, vessel coordinates, and customs clearance status for your international consignments.
+        </p>
+
+        <form class="tracking-form" style="background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: var(--radius-xl); border: 1px solid rgba(255, 255, 255, 0.15);">
+          <div class="tracking-form-group" style="margin-bottom: 0.75rem;">
+            <div class="tracking-input-wrapper">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+              <input type="text" class="tracking-input" placeholder="Enter Waybill (AWB / B/L / Container No.)" required>
+            </div>
+            <button type="submit" class="btn btn-accent btn-lg">Track Waybill</button>
+          </div>
+
+          <div class="tracking-presets" style="text-align: left;">
+            <p class="tracking-presets-label" style="color: var(--slate-400);">Live demo waybills ready for testing:</p>
+            <div class="tracking-preset-chips">
+              <span class="preset-chip" data-code="VEX-8924-US">VEX-8924-US (Air Express: HKG ➔ ORD)</span>
+              <span class="preset-chip" data-code="VEX-1042-DE">VEX-1042-DE (Ocean 2x40ft: Shanghai ➔ Hamburg)</span>
+              <span class="preset-chip" data-code="VEX-5581-SG">VEX-5581-SG (Pharma Cold Chain: Basel ➔ SIN)</span>
+              <span class="preset-chip" data-code="VEX-3390-AE">VEX-3390-AE (Heavy Haul Convoy: Dubai ➔ Riyadh)</span>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- TRACKING RESULT CONTAINER -->
+    <section class="section">
+      <div class="container container-narrow">
+        <div id="tracking-result-container">
+          <!-- Default prompt state before search -->
+          <div style="background-color: var(--slate-50); border: 2px dashed var(--slate-300); border-radius: var(--radius-xl); padding: 3.5rem 2rem; text-align: center;">
+            <div style="width: 64px; height: 64px; border-radius: 50%; background-color: var(--accent-light); color: var(--accent-600); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto;">
+              <svg style="width:32px;height:32px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            </div>
+            <h3 style="margin-bottom: 0.5rem; color: var(--slate-800);">Ready to Track Your Consignment</h3>
+            <p style="color: var(--slate-500); max-width: 480px; margin: 0 auto 1.5rem auto; font-size: 0.95rem;">
+              Click any of the sample waybills above or enter your custom shipment ID to view real-time transit checkpoints and status.
+            </p>
+            <button class="btn btn-primary btn-sm" onclick="executeTrackingSearch('VEX-8924-US')">
+              Load Sample Air Freight (VEX-8924-US)
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRACKING EXPLANATION / FAQ -->
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge-kicker">Tracking Intelligence</span>
+          <h2>Understanding Your Telematics Milestones</h2>
+          <p>How Vanguard provides transparent custody tracking at every step of international transit.</p>
+        </div>
+
+        <div class="grid grid-cols-3">
+          <div style="background-color: var(--white); border: 1px solid var(--slate-200); border-radius: var(--radius-lg); padding: 1.75rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--primary-900);">Electronic Waybill (e-AWB / e-BL)</h4>
+            <p style="font-size: 0.9rem; color: var(--slate-600);">
+              Issued the second your booking is confirmed. Enables customs authorities to pre-screen documentation prior to vessel or aircraft arrival.
+            </p>
+          </div>
+
+          <div style="background-color: var(--white); border: 1px solid var(--slate-200); border-radius: var(--radius-lg); padding: 1.75rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--primary-900);">Active Satellite Telematics</h4>
+            <p style="font-size: 0.9rem; color: var(--slate-600);">
+              Direct data feeds from airline flight computers, vessel AIS transponders, and GPS trailer beacons calculate accurate dynamic ETAs.
+            </p>
+          </div>
+
+          <div style="background-color: var(--white); border: 1px solid var(--slate-200); border-radius: var(--radius-lg); padding: 1.75rem;">
+            <h4 style="margin-bottom: 0.5rem; color: var(--primary-900);">Digital Proof of Delivery (e-POD)</h4>
+            <p style="font-size: 0.9rem; color: var(--slate-600);">
+              Timestamped signature, consignee identification, and condition inspection photos uploaded instantly upon final unloading.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border:none; padding: 2rem 0;">
+        <div class="footer-bottom-inner">
+          <div>&copy; <span class="current-year">2026</span> Vanguard Global Logistics Corporation.</div>
+          <div class="footer-bottom-links">
+            <a href="services.html">Services</a>
+            <a href="tracking.html">Live Tracking</a>
+            <a href="quote.html">Quote Engine</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/tracking.js"></script>
+</body>
+</html>
