@@ -9,8 +9,10 @@
 ## Repositories & Live URLs
 - **Penta-Websites**: [https://penta-websites.github.io/Logistics/](https://penta-websites.github.io/Logistics/)
   - Git Remote `origin`: `https://github.com/Penta-Websites/Logistics.git`
+  - Status: **Live (HTTP 200 OK verified via browser subagent & curl)**
 - **Pixel-Force**: [https://pixel-force.github.io/Logistics/](https://pixel-force.github.io/Logistics/)
   - Git Remote `pixel`: `https://github.com/Pixel-Force/Logistics.git`
+  - Status: **Live (HTTP 200 OK verified via browser subagent & curl)**
 
 ## Architecture & Technology Stack
 - **Framework**: Semantic HTML5, Modular CSS3 with Custom Properties (CSS variables), Vanilla ES6+ JavaScript.
@@ -47,4 +49,6 @@
 - **2026-11-21**: Built interactive JavaScript engines for live SatNet tracking, dynamic freight rate calculation, and RFQ generation.
 - **2026-11-21**: Generated custom high-resolution SVG emblems, mode icons, and global route map.
 - **2026-11-21**: Created public GitHub repositories `Penta-Websites/Logistics` and `Pixel-Force/Logistics`.
-- **2026-11-21**: Enabled GitHub Pages on both repositories and verified live HTTP 200 responses.
+- **2026-11-21**: Enabled GitHub Pages on both repositories.
+- **2026-11-21**: Added `.nojekyll` file to bypass Jekyll processing on GitHub Pages and pushed commit `316843c`.
+- **2026-11-21**: Verified both live sites via headless browser subagent & direct curl — HTTP 200 OK returned on both endpoints with 0 console errors and complete asset rendering.
